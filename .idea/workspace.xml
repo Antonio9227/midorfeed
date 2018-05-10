@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d705f2ec-ef63-4881-89e9-64446f153b62" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/af/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/br/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/bs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/cy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/en_GB/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/en_GB/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es_VE/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ga/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/hi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/hsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/hu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/id/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/io/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/io/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ka/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/kk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/km/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/km/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/kn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/lb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/lt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/mk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ml/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/mn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/mr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/my/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/my/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/nb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ne/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/nn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/os/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/os/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/pa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/pt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sq/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sr_Latn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sr_Latn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sw/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/sw/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ta/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ta/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/te/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/te/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/th/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/th/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/tt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/tt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/udm/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/udm/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ur/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ur/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/vi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/zh_Hant/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/af/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/br/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/bs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/cy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/en_GB/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/en_GB/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es_VE/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ga/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/hi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/hsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/hu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/id/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/io/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/io/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ka/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/kk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/km/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/km/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/kn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/lb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/lt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/mk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ml/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/mn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/mr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/my/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/my/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/nb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ne/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/nn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/os/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/os/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/pa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/pt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sq/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sr_Latn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sr_Latn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sw/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/sw/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ta/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ta/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/te/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/te/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/th/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/th/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/tt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/tt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/udm/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/udm/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ur/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ur/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/vi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/zh_Hant/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/templatetags/flatpages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/admin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/admin/options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/admin/widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/base/adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/base/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/base/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/base/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/introspection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/mysql/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/introspection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/oracle/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/introspection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/pgraster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/postgis/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/introspection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/spatialite/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/backends/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/models/aggregates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/models/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/models/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/models/lookups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/models/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/models/sql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/db/models/sql/conversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/feeds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/forms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/forms/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/forms/widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/datasource.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/envelope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/geometries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/geomtype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/libgdal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/ds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/errcheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/geom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/raster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/prototypes/srs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/raster/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/raster/band.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/raster/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/raster/const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/raster/source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/srs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geoip2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geoip2/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geoip2/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/coordseq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/libgeos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/linestring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/mutable_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prepared.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/coordseq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/errcheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/geom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/predicates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/prepared.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/threadsafe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/geos/prototypes/topology.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/af/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/br/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/bs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/cy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/en_GB/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/en_GB/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es_VE/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ga/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/hi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/hsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/hu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/id/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/io/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/io/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ka/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/kk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/km/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/km/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/kn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/lb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/lt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/mk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ml/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/mn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/mr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/my/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/my/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/nb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ne/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/nn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/os/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/os/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/pa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/pt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sq/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sr_Latn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sr_Latn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sw/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/sw/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ta/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ta/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/te/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/te/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/th/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/th/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/tt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/tt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/udm/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/udm/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ur/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ur/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/vi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/zh_Hant/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/management/commands/inspectdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/management/commands/ogrinspect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/measure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/ptr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/serializers/geojson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/shortcuts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/sitemaps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/sitemaps/kml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/sitemaps/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/static/gis/css/ol3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_line_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_line_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_point_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_point_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_polygon_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/static/gis/img/draw_polygon_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/static/gis/js/OLMapWidget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/admin/openlayers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/admin/openlayers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/admin/osm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/admin/osm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/kml/base.kml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/kml/placemarks.kml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/openlayers-osm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/openlayers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/utils/layermapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/utils/ogrinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/utils/ogrinspect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/utils/srs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/af/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/br/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/bs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/cy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/en_GB/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/en_GB/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es_VE/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ga/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/hy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/id/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/io/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/io/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ka/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/kk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/km/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/km/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/kn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/lb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/lt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/mk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ml/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/mn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/mr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/my/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/my/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/nb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ne/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/nn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/os/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/os/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/pa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/pt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sq/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sr_Latn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sr_Latn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sw/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/sw/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ta/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ta/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/te/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/te/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/th/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/th/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/tt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/tt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/udm/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/udm/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ur/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ur/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/vi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/zh_Hant/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/templatetags/humanize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/storage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/storage/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/storage/cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/storage/fallback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/storage/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/messages/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/aggregates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/aggregates/general.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/aggregates/statistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/fields/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/fields/array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/fields/citext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/fields/hstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/fields/jsonb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/fields/ranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/fields/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/forms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/forms/array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/forms/hstore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/forms/jsonb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/forms/ranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/indexes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/jinja2/postgres/widgets/split_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/hsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/hu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/id/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ka/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/kk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/lt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/mk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/mn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/nb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ne/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/pt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/sl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/sq/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/zh_Hant/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/lookups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/templates/postgres/widgets/split_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/af/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/br/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/bs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/cy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/en_GB/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/en_GB/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es_VE/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ga/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/hi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/hsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/hu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/id/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/io/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/io/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ka/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/kab/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/kab/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/kk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/km/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/km/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/kn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/lb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/lt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/mk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/base_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/af/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/br/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/bs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/cy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ga/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/serializers.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="riotapi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lolproject/riot/riotapi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lolproject/lolproject/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lolproject/riot/riotapi.py" />
+        <option value="$PROJECT_DIR$/site.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="585" />
+    <option name="y" value="29" />
+    <option name="width" value="1284" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="lolproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="lolproject" type="462c0819:PsiDirectoryNode" />
+              <item name="lolproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d705f2ec-ef63-4881-89e9-64446f153b62" name="Default" comment="" />
+      <created>1525809627879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525809627879</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="59" y="-8" width="1315" height="784" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2505873" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972136" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32972136" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32972136" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lolproject/riot/riotapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lolproject/lolproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

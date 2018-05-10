@@ -1,0 +1,12 @@
+SITEMAP:
+
+index:
+->index page, shows textbox, button for ingame search
+
+live game:
+->?search, shows active game/alt text
+->?getleagues, returns league for individual summoners, used to update the live game data
+
+summoner info:
+->index page, shows summoner info/alt text
+->redirect to history
