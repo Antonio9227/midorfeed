@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from live.views import LiveGame
+from live import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('live/', LiveGame.as_view()),
+    path('',LiveGame.as_view())
 ]
