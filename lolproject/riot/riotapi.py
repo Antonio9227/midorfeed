@@ -3,8 +3,10 @@ import json
 from enum import Enum
 
 from champion.models import Champion
+from live.models import SummonerSpell
 
 api_key = "RGAPI-bc7651cc-a4ae-4de8-b6ad-f97ce77d3464"
+version = "8.10.1"
 
 
 # Enum for predefined riot api methods
@@ -60,12 +62,16 @@ class ParticipantDTO:
         self.profileIconId = dic['profileIconId']
         self.championId = dic['championId']
         self.summonerName = dic['summonerName']
-        self.spell1Id = dic['spell1Id']
-        self.spell2Id = dic['spell2Id']
+        spell1 = SummonerSpell.objects.get(key=int(dic['spell1Id']))
+        spell2 = SummonerSpell.objects.get(key=int(dic['spell2Id']))
+        self.spell1 = spell1.name
+        self.spell2 = spell2.name
+        self.spell1Img = spell1.id + ".png"
+        self.spell2Img = spell2.id + ".png"
         self.summonerId = dic['summonerId']
         self.teamId = dic['teamId']
         self.focus = 0
-        champ = Champion.objects.filter(key=int(dic['championId'])).first();
+        champ = Champion.objects.filter(key=int(dic['championId'])).first()
         if champ:
             self.championName = champ.name
             self.championImage = champ.id + ".png"
@@ -73,6 +79,7 @@ class ParticipantDTO:
             self.championName = "Unknown?"
             self.championImage = ""
 
+
 class GameDTO:
-    def __init__(self,game):
-        self.gameLength=game['gameLength']
+    def __init__(self, game):
+        self.gameLength = game['gameLength']

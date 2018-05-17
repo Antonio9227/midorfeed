@@ -5,6 +5,8 @@ import requests
 import json
 from live.models import Summoner
 from champion.models import Champion
+from live.models import *
+
 from riot import riotapi
 from riot.riotapi import ParticipantDTO
 from time import time
@@ -58,6 +60,7 @@ class LiveGame(TemplateView):
         if not self.sumName:
             return data
 
+        data["api_version"] = riotapi.version
         summoner = Summoner.objects.filter(name=self.sumName.lower()).first()
 
         # if summoner does not exists in db or was updated more than 1h ago
@@ -65,7 +68,7 @@ class LiveGame(TemplateView):
             riotSum = riotapi.summonerByName(self.sumName)
             if riotSum == -1:
                 data['status'] = "Summoner not found. Try again?"
-                data['showgame']=False;
+                data['showgame'] = False;
                 return data
             else:
                 if summoner:
@@ -119,4 +122,43 @@ class LiveGame(TemplateView):
 class DEBUG(TemplateView):
     template_name = "debug.html"
 
+    def get_context_data(self, **kwargs):
+        r = requests.get("http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/summoner.json");
+        data = json.loads(r.content)['data']
+        keys = list(data.keys())
 
+        for i in range(0, len(data)):
+            s = data[keys[i]]
+            #  SummonerSpell.objects.create(name=s['name'],id=s['id'], key=s['key'],description=s['description'])
+
+        # GameMode.objects.create(mode="CLASSIC", description="")
+        # GameMode.objects.create(mode="ODIN", description="Dominion")
+        # GameMode.objects.create(mode="ARAM", description="ARAM")
+        # GameMode.objects.create(mode="TUTORIAL", description="Tutorial")
+        # GameMode.objects.create(mode="URF", description="Ultra Rapid Fire")
+        # GameMode.objects.create(mode="DOOMBOTSTEEMO", description="Teemo DoomBots")
+        # GameMode.objects.create(mode="ONEFORALL", description="One for all")
+        # GameMode.objects.create(mode="ASCENSION", description="Ascension")
+        # GameMode.objects.create(mode="FIRSTBLOOD", description="First Blood")
+        # GameMode.objects.create(mode="KINGPORO", description="King Poro")
+        # GameMode.objects.create(mode="SIEGE", description="Nexus Siege")
+        # GameMode.objects.create(mode="ASSASSINATE", description="Blood Hunt")
+        # GameMode.objects.create(mode="ARSR", description="All Random Summoner's Rift")
+        # GameMode.objects.create(mode="DARKSTAR", description="Dark Star: Singularity")
+        # GameMode.objects.create(mode="STARGUARDIAN", description="Star Guardian Invasion")
+        # GameMode.objects.create(mode="PROJECT", description="PROJECT: Hunter's")
+
+        # Map.objects.create(id=1, name="Summoner's Rift (Summer)")
+        # Map.objects.create(id=2, name="Summoner's Rift (Autumn)")
+        # Map.objects.create(id=3, name="The Proving Grounds")
+        # Map.objects.create(id=4, name="Twisted Treeline (Original)")
+        # Map.objects.create(id=8, name="The Crystal Scar")
+        # Map.objects.create(id=10, name="Twister Treeline")
+        # Map.objects.create(id=11, name="Summoner's Rift")
+        # Map.objects.create(id=12, name="Howling Abyss")
+        # Map.objects.create(id=14, name="Butcher's Bridge")
+        # Map.objects.create(id=16, name="Cosmic Ruins")
+        # Map.objects.create(id=18, name="Valoran City Park")
+        # Map.objects.create(id=19, name="Substructure 43")
+
+        return super().get_context_data(**kwargs);

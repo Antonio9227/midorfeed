@@ -24,5 +24,5 @@ urlpatterns = [
     path('live/', LiveGame.as_view()),
     path('', LiveGame.as_view()),
     path('DEBUG', DEBUG.as_view()),
-    path('getLeague', LeagueView)
+    path('live/getLeague', LeagueView)
 ]

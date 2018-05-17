@@ -39,6 +39,7 @@ class GameMode(models.Model):
 
 # summoner spells
 class SummonerSpell(models.Model):
-    key = models.IntegerField(primary_key=True)  # a number used as id
+    key = models.IntegerField(primary_key=True)  # id of spell
+    id = models.CharField(max_length=20,default="UNKNOWN")  # internal name of spell
     name = models.CharField(max_length=20)  # name of spell
     description = models.CharField(max_length=150)  # what the spell does

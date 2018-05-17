@@ -71,31 +71,31 @@
                     </tr>
                     {% for participant in team1 %}
                     <tr style="height:50px;line-height: 10px;width: 64px;width: 100%; {% if participant.focus %} background-color:rgba(60, 73, 82, 0.81); {% endif %}">
-                        <td style=" width:70px;"><img src="http://ddragon.leagueoflegends.com/cdn/8.9.1/img/profileicon/{{participant.profileIconId}}.png" style="width: 43px;"></td>
+                        <td style=" width:70px;"><img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/profileicon/{{participant.profileIconId}}.png" style="width: 43px;"></td>
                         <td>
                             <h3 style="width:100%;line-height: 1px;font-size:medium;padding-left: 10px;vertical-align: middle;text-align: left; "><a
-                                    href="/summoner?name={{participant.summonerName}}" style="color: cornsilk;">{{participant.summonerName}}</a></h3>
+                                    href="/summoner?name={{participant.summonerName}}" style="color: cornsilk; position:relative; top:3px">{{participant.summonerName}}</a></h3>
                         </td>
                         <td style="width: 32px;">
                              <a href="/champions/?name={{participant.championName}}" style="font-size:smaller;color: cornsilk;">
-                            <img src="http://ddragon.leagueoflegends.com/cdn/8.9.1/img/champion/{{participant.championImage}}"
+                            <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/champion/{{participant.championImage}}"
                                  style="width: 32px;">
                             <p style="font-size: xx-small;">
                                {{participant.championName}}</p>
                         </a>
                         </td>
                         <td style="width: 20px;">
-                            <img title="spell1"
-                                 src="http://ddragon.leagueoflegends.com/cdn/8.9.1/img/spell/SummonerFlash.png"
+                            <img data-toggle="tooltip"  title="{{participant.spell1}}"
+                                 src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/spell/{{participant.spell1Img}}"
                                  style="width: 15px;"><br>
-                            <img src="http://ddragon.leagueoflegends.com/cdn/8.9.1/img/spell/SummonerFlash.png"
-                                 style="padding-bottom: 8px; width: 15px; padding-top: 5px;" title="spell2"></td>
+                            <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/spell/{{participant.spell2Img}} "
+                                 style="padding-bottom: 8px; width: 15px; padding-top: 5px;" data-toggle="tooltip"  title="{{participant.spell2}}"></td>
 
                         <td style="text-align: center; width: 70px;">
                             <div class="rank" id="{{participant.summonerId}}"
                                  style="margin:auto;background-size:cover;width: 42px;height: 42px; background-image: url('/static/loading.gif');">
-                                <p style="font-size: xx-small;padding-top: 3px;vertical-align: bottom;"></p>
-                                <p style="font-size: xx-small;padding-top:16px"></p>
+                                <p style="font-size: xx-small;padding-top: 0px;vertical-align: bottom;"></p>
+                                <p style="font-size: xx-small;padding-top:21px"></p>
                             </div>
 
                         </td>
@@ -105,29 +105,32 @@
                         <td colspan="4" style="font-size: xx-small; padding-left: 5px;">BLUE TEAM</td>
                     </tr>
                     {% for participant in team2 %}
-                     <tr style=" height:50px;line-height: 10px;width: 64px;width: 100%; {% if participant.focus %} background-color:rgba(60, 73, 82, 0.81); {% endif %}">
-                        <td style=" width:70px;"><img src="http://ddragon.leagueoflegends.com/cdn/8.9.1/img/profileicon/{{participant.profileIconId}}.png" style="width: 43px;"></td>
+                     <tr style="height:50px;line-height: 10px;width: 64px;width: 100%; {% if participant.focus %} background-color:rgba(60, 73, 82, 0.81); {% endif %}">
+                        <td style=" width:70px;"><img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/profileicon/{{participant.profileIconId}}.png" style="width: 43px;"></td>
                         <td>
                             <h3 style="width:100%;line-height: 1px;font-size:medium;padding-left: 10px;vertical-align: middle;text-align: left; "><a
-                                    href="/summoner?name={{participant.summonerName}}" style="color: cornsilk;">{{participant.summonerName}}</a></h3>
+                                    href="/summoner?name={{participant.summonerName}}" style="color: cornsilk; position:relative; top:3px">{{participant.summonerName}}</a></h3>
                         </td>
                         <td style="width: 32px;">
-                            <img src="http://ddragon.leagueoflegends.com/cdn/8.9.1/img/champion/{{participant.championImage}}"
+                             <a href="/champions/?name={{participant.championName}}" style="font-size:smaller;color: cornsilk;">
+                            <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/champion/{{participant.championImage}}"
                                  style="width: 32px;">
                             <p style="font-size: xx-small;">
-                                <a href="/champions/?name={{participant.championName}}" style="font-size:smaller;color: cornsilk;">{{participant.championName}}</a></p></td>
+                               {{participant.championName}}</p>
+                        </a>
+                        </td>
                         <td style="width: 20px;">
-                            <img title="spell1"
-                                 src="http://ddragon.leagueoflegends.com/cdn/8.9.1/img/spell/SummonerFlash.png"
+                            <img data-toggle="tooltip"  title="{{participant.spell1}}"
+                                 src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/spell/{{participant.spell1Img}}"
                                  style="width: 15px;"><br>
-                            <img src="http://ddragon.leagueoflegends.com/cdn/8.9.1/img/spell/SummonerFlash.png"
-                                 style="padding-bottom: 8px; width: 15px; padding-top: 5px;" title="spell2"></td>
+                            <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/spell/{{participant.spell2Img}} "
+                                 style="padding-bottom: 8px; width: 15px; padding-top: 5px;" data-toggle="tooltip"  title="{{participant.spell2}}"></td>
 
                         <td style="text-align: center; width: 70px;">
                             <div class="rank" id="{{participant.summonerId}}"
                                  style="margin:auto;background-size:cover;width: 42px;height: 42px; background-image: url('/static/loading.gif');">
-                                <p style="font-size: xx-small;padding-top: 3px;vertical-align: bottom;"></p>
-                                <p style="font-size: xx-small;padding-top:16px"></p>
+                                <p style="font-size: xx-small;padding-top: 0px;vertical-align: bottom;"></p>
+                                <p style="font-size: xx-small;padding-top:21px"></p>
                             </div>
 
                         </td>
@@ -184,6 +187,13 @@
 
 
 <script>
+//prepare the tooltip hover stuff
+    $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+
 //Updates all ranks on the page!
 var ranks=document.getElementsByClassName("rank");
 
@@ -205,7 +215,7 @@ nodes[3].setAttribute("title",data.leagueName);
 
 bg=a.background;
 bg.setAttribute("title",data.leagueName);
-bg.style.backgroundImage="url('static/tier-icons.png')";
+bg.style.backgroundImage="url('/static/tier-icons.png')";
 bg.style.backgroundPositionX= (icons[data.tier]*-42)+"px";
 }
 
