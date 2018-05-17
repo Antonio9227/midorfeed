@@ -5,8 +5,8 @@ from enum import Enum
 from champion.models import Champion
 from live.models import SummonerSpell
 
-api_key = "RGAPI-bc7651cc-a4ae-4de8-b6ad-f97ce77d3464"
-version = "8.10.1"
+api_key = "RGAPI-f639cc63-7965-4a95-b304-a2098a27bc5c"  # THIS SHIT MUST BE GENERATED DAILY
+version = "8.10.1"  # version used to fetch static data such as images
 
 
 # Enum for predefined riot api methods
@@ -19,7 +19,7 @@ class Method(Enum):
 
 # general request function; pass one enum from Method and params
 def request(method, param):
-    region = "eun1"
+    region = "eun1"  # can be used to extend this site to other regions
     url = "https://" + region + ".api.riotgames.com" + method + param + "?api_key=" + api_key
     r = requests.get(url)
     print(url)

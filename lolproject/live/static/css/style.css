@@ -23,6 +23,8 @@ h1, h2, h3, h4, h5 {
   font-family: "Playfair Display", times, serif;
 }
 
+
+
 header {
   position: absolute;
   top: 0;
@@ -1203,6 +1205,11 @@ textarea.form-control {
   }
 }
 
-p{
-margin:0px
+p{margin:0}
+
+@media screen and (min-width : 321px) {
+.gameContainer{
+width:0;
+background:red;
+}
 }

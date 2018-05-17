@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Mid or feed</title>
+    <title>Mid or feed {% if showgame %} - {{requiest.GET.summoner}} {% endif %}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -62,12 +62,37 @@
             <!-- if summoner provided -->
             {% if showgame %}
 
-            <div styl="background-color:rgba(0,0,0,0.4)"
-                 style=" background-color: rgba(0,0,0,0.5);border-radius: 10px;padding: 10px;width: 72%;">
+            <div class="gameContainer" style=" background-color: rgba(0,0,0,0.5);border-radius: 10px;padding: 10px;width: 72%;">
                 <table style="text-align: center;width: 100%;">
                     <tbody>
+                   <tr style="font-weight: 900;font-size: small;text-align: left;"><td colspan="4">
+                        <div style="display:inline;color: #a20000;padding-right:5px">{{gameType}}</div>
+                        <div style="display:inline;padding-right:20px;padding-left:20px;border-left:solid 1px;border-right:solid 1px">
+                            {{map}}</div>
+                        <div style="display:inline;padding-left:5px;font-weight: 400;" id="clock"></div>
+                       <script>
+                           //clock script.. YEAH I KNOW! SPAGETT.EXE
+                           clock=document.getElementById("clock");
+                           gameStartTime={{gameStartTime}};
+
+                           function updateClock(){
+                           dt=Math.floor((new Date).getTime()-gameStartTime)/1000;
+                           m=Math.floor(dt/60);
+                           s=Math.floor(dt%60);
+
+                           clock.innerHTML= (m<10?'0':'')+m+":"+ (s<10?'0':'')+s;
+                           }
+                           updateClock();
+                           setInterval(updateClock,1000);
+                       </script>
+                       <td>
+                       <input type="button" class="btn-primary noborder" style="outline: none;transition-duration:0.3s;width:100%" value="Search"
+                       onclick="window.location.href='/live/';">
+                   </td>
+
+                    </td></tr>
                     <tr style="text-align: left;">
-                        <td colspan="4" style="font-size: xx-small; padding-left: 5px;">RED TEAM</td>
+                        <td colspan="5" style="font-size: xx-small; padding-left: 5px;border-bottom:solid 1px;">RED TEAM</td>
                     </tr>
                     {% for participant in team1 %}
                     <tr style="height:50px;line-height: 10px;width: 64px;width: 100%; {% if participant.focus %} background-color:rgba(60, 73, 82, 0.81); {% endif %}">
@@ -102,7 +127,7 @@
                     </tr>
                     {% endfor %}
                      <tr style="text-align: left;">
-                        <td colspan="4" style="font-size: xx-small; padding-left: 5px;">BLUE TEAM</td>
+                        <td colspan="5" style="font-size: xx-small; padding-left: 5px;border-bottom:solid 1px;padding-top:15px">BLUE TEAM</td>
                     </tr>
                     {% for participant in team2 %}
                      <tr style="height:50px;line-height: 10px;width: 64px;width: 100%; {% if participant.focus %} background-color:rgba(60, 73, 82, 0.81); {% endif %}">

@@ -53,6 +53,7 @@ def get(self, request):
 class LiveGame(TemplateView):
     template_name = "base.html"
     status = ""
+    sumName = ""
 
     def get_context_data(self, **kwargs):
         data = super().get_context_data(**kwargs)
@@ -101,6 +102,10 @@ class LiveGame(TemplateView):
             data['team1'] = team1
             data['team2'] = team2
             data['gameLength'] = game['gameLength']
+            config = GameType.objects.get(id=int(game['gameQueueConfigId']))
+            data['gameType'] = config.description
+            data['map'] = Map.objects.get(id=int(game['mapId'])).name
+            data['gameStartTime'] = game['gameStartTime']
 
         data['status'] = self.status
         data['showgame'] = self.status.__len__() == 0
@@ -123,13 +128,12 @@ class DEBUG(TemplateView):
     template_name = "debug.html"
 
     def get_context_data(self, **kwargs):
-        r = requests.get("http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/summoner.json");
-        data = json.loads(r.content)['data']
-        keys = list(data.keys())
+        r = requests.get("https://api.myjson.com/bins/g2x7e");
+        data = json.loads(r.content)
 
         for i in range(0, len(data)):
-            s = data[keys[i]]
-            #  SummonerSpell.objects.create(name=s['name'],id=s['id'], key=s['key'],description=s['description'])
+            s = data[i]
+            # gameType.objects.create(id=int(s['id']), map=s['map'], description=s['desc'])
 
         # GameMode.objects.create(mode="CLASSIC", description="")
         # GameMode.objects.create(mode="ODIN", description="Dominion")

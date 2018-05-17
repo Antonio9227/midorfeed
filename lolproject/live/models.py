@@ -40,6 +40,13 @@ class GameMode(models.Model):
 # summoner spells
 class SummonerSpell(models.Model):
     key = models.IntegerField(primary_key=True)  # id of spell
-    id = models.CharField(max_length=20,default="UNKNOWN")  # internal name of spell
+    id = models.CharField(max_length=20, default="UNKNOWN")  # internal name of spell
     name = models.CharField(max_length=20)  # name of spell
     description = models.CharField(max_length=150)  # what the spell does
+
+
+# game type
+class GameType(models.Model):
+    id = models.IntegerField(primary_key=True)  # id of game type
+    map = models.CharField(max_length=30)  # map name, better use the map model instead though
+    description = models.CharField(max_length=50)  # game description
