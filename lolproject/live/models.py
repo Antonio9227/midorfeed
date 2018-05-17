@@ -6,14 +6,39 @@ from time import time
 
 # summoner model from database
 class Summoner(models.Model):
-    accountId = models.BigIntegerField(primary_key=True, null=False)
-    profileIconId = models.IntegerField(null=False)
-    name = models.CharField(max_length=25, null=False)
-    summonerLevel = models.BigIntegerField()
-    revisionDate = models.BigIntegerField()
+    id = models.BigIntegerField(primary_key=True, null=False)  # id of summoner
+    profileIconId = models.IntegerField(null=False)  # id of summoner icon
+    name = models.CharField(max_length=25, null=False)  # summoner name
+    summonerLevel = models.BigIntegerField()  # level of the summoner
+    revisionDate = models.BigIntegerField()  # last time the user was seen online
 
-    lastUpdate = models.BigIntegerField()
-    favChamp = models.IntegerField()
+    lastUpdate = models.BigIntegerField()  # last time this entry was updated
+    favChamp = models.IntegerField(null=True)  # favorite champ of the user
 
     def __str__(self):
         return self.name
+
+
+# league maps up to date
+class Map(models.Model):
+    id = models.IntegerField(primary_key=True)  # id of the map
+    name = models.CharField(max_length=30)  # name of the map
+
+    def __str__(self):
+        return self.name
+
+
+# defines each league game mode
+class GameMode(models.Model):
+    mode = models.CharField(primary_key=True, max_length=20)  # game mode name (id)
+    description = models.CharField(max_length=100)  # game mode description (short description)
+
+    def __str__(self):
+        return self.decription
+
+
+# summoner spells
+class SummonerSpell(models.Model):
+    key = models.IntegerField(primary_key=True)  # a number used as id
+    name = models.CharField(max_length=20)  # name of spell
+    description = models.CharField(max_length=150)  # what the spell does

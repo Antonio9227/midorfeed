@@ -2,13 +2,17 @@ import requests
 import json
 from enum import Enum
 
-api_key = "RGAPI-1d3636d6-a561-46ee-8211-8747de5d05a1"
+from champion.models import Champion
+
+api_key = "RGAPI-bc7651cc-a4ae-4de8-b6ad-f97ce77d3464"
 
 
 # Enum for predefined riot api methods
 class Method(Enum):
     SummonerByName = "/lol/summoner/v3/summoners/by-name/"  # requires name as param
     GetActiveGame = "/lol/spectator/v3/active-games/by-summoner/"  # requires summoner id
+    GetLeague = "/lol/league/v3/positions/by-summoner/"  # requires summoner id
+    SummonerById = "/lol/summoner/v3/summoners/"  # requires id as param
 
 
 # general request function; pass one enum from Method and params
@@ -20,16 +24,55 @@ def request(method, param):
     return json.loads(r.content)
 
 
-# gets a summoner by summoner name; if the summoner does not exists, it returns id -1
+# gets a summoner by summoner name; if the summoner does not exists, it returns -1
 def summonerByName(name):
     r = request(Method.SummonerByName.value, name)
     if r.get('status'):
-        return {'id': -1}
+        print("INVALID SUM ID")
+        return -1
     return r
 
 
+# gets a summoner by id
+def summonerById(id):
+    r = request(Method.SummonerById.value, str(id))
+    if r.get('status'):
+        return -1
+    return r
+
+
+# returns the game the summoner with that id is in right now or -1
 def activeGame(id):
     r = request(Method.GetActiveGame.value, str(id))
     if r.get('status'):
-        return {'id': -1}
+        return -1
     return r
+
+
+# returns league of specified summoner id
+def league(id):
+    return request(Method.GetLeague.value, str(id))
+
+
+# represents an active game participant
+class ParticipantDTO:
+    def __init__(self, dic):
+        self.profileIconId = dic['profileIconId']
+        self.championId = dic['championId']
+        self.summonerName = dic['summonerName']
+        self.spell1Id = dic['spell1Id']
+        self.spell2Id = dic['spell2Id']
+        self.summonerId = dic['summonerId']
+        self.teamId = dic['teamId']
+        self.focus = 0
+        champ = Champion.objects.filter(key=int(dic['championId'])).first();
+        if champ:
+            self.championName = champ.name
+            self.championImage = champ.id + ".png"
+        else:
+            self.championName = "Unknown?"
+            self.championImage = ""
+
+class GameDTO:
+    def __init__(self,game):
+        self.gameLength=game['gameLength']
