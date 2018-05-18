@@ -1,0 +1,44 @@
+
+.icon{
+text-align:center;overflow-y:
+inherit;border-radius: 5px;
+float:left;
+margin:25px;
+width:100px;
+height:100px;
+background-size:cover;
+position:relative;
+}
+
+.iconOverlay{
+background-image:url('/static/summoner-frames.png');
+padding: 25px;
+position: relative;
+width: 110%;
+top: -10px;
+height: 110%;
+background-size: 1165px 146px;
+background-clip: padding-box;
+background-position: -23px -14px;
+}
+
+.level{
+margin:0;
+    width: 100%;
+    font-size: small;
+     background-color: rgba(0,0,0,0.75);
+    position: absolute;
+    font-weight: 900;
+    bottom: 0px;}
+
+.summonerName{
+float:left;
+margin:25px;
+vertical-align:middle;
+text-align:left;
+ font-size: 42px;display: inline; font-weight: 900;
+}
+
+.verticalContainer{
+min-height:150px
+}

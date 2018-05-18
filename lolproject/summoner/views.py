@@ -4,7 +4,11 @@ from django.shortcuts import render
 from django.views.generic import TemplateView
 from riot import riotapi
 from live.models import Summoner
+from champion.models import *
+import random
 from time import time
+import json
+
 
 class SummonerView(TemplateView):
     template_name = "summoner.html"
@@ -25,7 +29,7 @@ class SummonerView(TemplateView):
             return data
 
         data["api_version"] = riotapi.version
-        summoner = Summoner.objects.filter(name=self.sumName.lower()).first()
+        summoner = Summoner.objects.filter(name__iexact=self.sumName.lower()).first()
 
         # if summoner does not exists in db or was updated more than 1h ago
         if not summoner or (time() - summoner.lastUpdate > 3600):
@@ -38,14 +42,40 @@ class SummonerView(TemplateView):
                 if summoner:
                     summoner.delete()
                 s = Summoner(id=riotSum['id'], profileIconId=riotSum['profileIconId'],
-                             name=riotSum['name'].lower(), summonerLevel=riotSum['summonerLevel'],
+                             name=riotSum['name'], summonerLevel=riotSum['summonerLevel'],
                              revisionDate=riotSum['revisionDate'], lastUpdate=time())
                 s.save()
                 summoner = s
                 print("new summoner:" + s.name)
 
-            data["show_searchBar"] = False
+        if not summoner.favChamp:
+            mastery = riotapi.champMastery(summoner.id)
+            if len(mastery) > 0:
+                mastery = mastery[0]
+                if len(mastery) > 0:
+                    summoner.favChamp = int(mastery['championId'])
+                    summoner.save()
 
+        if summoner.favChamp:
+            champ = Champion.objects.get(key=summoner.favChamp)
+            data["background"] = "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/" \
+                                 + champ.id + "_0.jpg"
+            data["mainchamp"] = champ.name
+        else:
+            data["mainchamp"] = "Nothing"
+            summoner.favChamp=0
+
+        adjectives = ["Filthy", "Degenerate", "Disgusting", "Detestable", "Dirty", "Despicable",
+                      "Awful", "Villainous", "Cheap"]
+
+        exclamations = ["Imagine my shock.", "Yuck.", "I don't know what else I expected.",
+                        "Srlsy?..", "Another one of those...", "Really?", "How impressive."]
+
+        data["adjective"] = adjectives[(summoner.id + summoner.favChamp) % len(adjectives)]
+        data["exclamation"] = exclamations[(summoner.id + summoner.favChamp) % len(exclamations)]
+        data["title"]=summoner.name
+        data["show_searchBar"] = False
+        data['summoner'] = summoner
         data['status'] = self.status
 
         return data
@@ -54,9 +84,12 @@ class SummonerView(TemplateView):
         self.status = ""
         self.sumName = request.GET.get('summoner', False)
 
+        if not self.sumName:
+            self.sumName = request.GET.get('name', False)
+
         # if summoner name was not provided via GET var, skip everything below
         if not self.sumName:
-            self.status = "  "
+            self.status = ""
             return super().get(request)
 
         return super().get(request)

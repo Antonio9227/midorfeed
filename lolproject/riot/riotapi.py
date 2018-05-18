@@ -5,7 +5,7 @@ from enum import Enum
 from champion.models import Champion
 from live.models import SummonerSpell
 
-api_key = "RGAPI-0c6df41e-7e63-46a3-8c18-9e27fe3ed0f3"  # THIS SHIT MUST BE GENERATED DAILY
+api_key = "RGAPI-e5700e86-edcf-4322-9341-c284a804bb1b"  # THIS SHIT MUST BE GENERATED DAILY
 version = "8.10.1"  # version used to fetch static data such as images
 
 
@@ -15,6 +15,7 @@ class Method(Enum):
     GetActiveGame = "/lol/spectator/v3/active-games/by-summoner/"  # requires summoner id
     GetLeague = "/lol/league/v3/positions/by-summoner/"  # requires summoner id
     SummonerById = "/lol/summoner/v3/summoners/"  # requires id as param
+    ChampMastery = "/lol/champion-mastery/v3/champion-masteries/by-summoner/"  # by summoner id
 
 
 # general request function; pass one enum from Method and params
@@ -32,6 +33,12 @@ def summonerByName(name):
     if r.get('status'):
         print("INVALID SUM ID")
         return -1
+    return r
+
+
+# get a summoner
+def champMastery(id):
+    r = request(Method.ChampMastery.value, str(id))
     return r
 
 

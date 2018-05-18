@@ -68,7 +68,7 @@ class LiveGame(TemplateView):
             return data
 
         data["api_version"] = riotapi.version
-        summoner = Summoner.objects.filter(name=self.sumName.lower()).first()
+        summoner = Summoner.objects.filter(name__iexact=self.sumName.lower()).first()
 
         # if summoner does not exists in db or was updated more than 1h ago
         if not summoner or (time() - summoner.lastUpdate > 3600):
@@ -81,7 +81,7 @@ class LiveGame(TemplateView):
                 if summoner:
                     summoner.delete()
                 s = Summoner(id=riotSum['id'], profileIconId=riotSum['profileIconId'],
-                             name=riotSum['name'].lower(), summonerLevel=riotSum['summonerLevel'],
+                             name=riotSum['name'], summonerLevel=riotSum['summonerLevel'],
                              revisionDate=riotSum['revisionDate'], lastUpdate=time())
                 s.save()
                 summoner = s
@@ -113,7 +113,7 @@ class LiveGame(TemplateView):
             data['gameType'] = config.description
             data['map'] = Map.objects.get(id=int(game['mapId'])).name
             data['gameStartTime'] = game['gameStartTime']
-
+            data['title'] = summoner.name
             data['show_searchBar'] = False
 
         data['status'] = self.status
