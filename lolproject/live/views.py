@@ -58,6 +58,12 @@ class LiveGame(TemplateView):
     def get_context_data(self, **kwargs):
         data = super().get_context_data(**kwargs)
 
+        data["search_header"] = "Find who you're playing against."
+        data["search_text"] = "See if you have any rights to call them noobs.";
+        data["search_button"] = "Live Game"
+        data["search_placeholder"] = "Summoner name"
+
+        data["show_searchBar"] = True
         if not self.sumName:
             return data
 
@@ -69,7 +75,7 @@ class LiveGame(TemplateView):
             riotSum = riotapi.summonerByName(self.sumName)
             if riotSum == -1:
                 data['status'] = "Summoner not found. Try again?"
-                data['showgame'] = False;
+                data['show_searchBar'] = True
                 return data
             else:
                 if summoner:
@@ -84,6 +90,7 @@ class LiveGame(TemplateView):
 
         if game == -1:
             self.status = "Summoner is currently not in any active game"
+            data['show_searchBar'] = True
         else:
             p = game['participants']
             team1 = []
@@ -107,8 +114,9 @@ class LiveGame(TemplateView):
             data['map'] = Map.objects.get(id=int(game['mapId'])).name
             data['gameStartTime'] = game['gameStartTime']
 
+            data['show_searchBar'] = False
+
         data['status'] = self.status
-        data['showgame'] = self.status.__len__() == 0
 
         return data
 

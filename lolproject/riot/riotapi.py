@@ -5,7 +5,7 @@ from enum import Enum
 from champion.models import Champion
 from live.models import SummonerSpell
 
-api_key = "RGAPI-f639cc63-7965-4a95-b304-a2098a27bc5c"  # THIS SHIT MUST BE GENERATED DAILY
+api_key = "RGAPI-0c6df41e-7e63-46a3-8c18-9e27fe3ed0f3"  # THIS SHIT MUST BE GENERATED DAILY
 version = "8.10.1"  # version used to fetch static data such as images
 
 

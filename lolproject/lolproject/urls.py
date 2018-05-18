@@ -15,14 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from live.views import LiveGame
-from live.views import DEBUG
-from live.views import LeagueView
+from live.views import *
+from summoner.views import *
+from django.views.generic.base import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('live/', LiveGame.as_view()),
-    path('', LiveGame.as_view()),
+    path('', RedirectView.as_view(url="/live/")),
     path('DEBUG', DEBUG.as_view()),
-    path('live/getLeague', LeagueView)
+    path('live/getLeague', LeagueView),
+    path('getLeague', LeagueView),
+    path('summoner/', SummonerView.as_view()),
+    path('live/summoner/', SummonerView.as_view())
 ]

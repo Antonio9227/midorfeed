@@ -35,16 +35,16 @@
             <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
                 <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="live/">Live Game</a>
+                        <a class="nav-link {% if request.path == '/live/' %} active {%endif%}" href="/live/">Live Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="summoner/">Summoner Stats</a>
+                        <a class="nav-link {% if request.path == '/summoner/' %} active {%endif%}" href="/summoner/">Summoner Stats</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="vs/">Versus</a>
+                        <a class="nav-link {% if request.path == '/live/' %} active {%endif%}" href="/vs/">Versus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link {% if request.path == '/live/' %} active {%endif%}" href="/contact.html">Contact</a>
                     </li>
                 </ul>
 
@@ -58,19 +58,39 @@
          style="background-image: url({% static 'images/big_image_1.jpg' %});">
     <div class="container">
         <div class="row align-items-center site-hero-inner justify-content-center">
-            {% block content %}
-            <!-- if summoner provided -->
-            {% if showgame %}
 
-            <div class="gameContainer" style=" background-color: rgba(0,0,0,0.5);border-radius: 10px;padding: 10px;width: 72%;">
+            <!-- if summoner provided -->
+            {% if show_searchBar == True %}
+            <div class="col-md-8 text-center">
+
+                <div class="mb-5 element-animate">
+                    <h1>{{search_header}}</h1>
+                    <p>{{search_text}}</p>
+
+                </div>
+                <p> {{status}}</p>
+                <form class="form-inline element-animate" id="search-form">
+                    <input type="text" value="{{request.GET.summoner}}" id="summonerName" name="summoner"
+                           class="form-control form-control-block search-input" placeholder="{{search_placeholder}}">
+                    <input type="button" onclick="search()" id="button" value="{{search_button}}"
+                           class="btn btn-primary"/>
+                </form>
+
+            </div>
+            {% else %}
+            {% block content %}
+            <div class="gameContainer"
+                 style=" background-color: rgba(0,0,0,0.5);border-radius: 10px;padding: 10px;width: 72%;">
                 <table style="text-align: center;width: 100%;">
                     <tbody>
-                   <tr style="font-weight: 900;font-size: small;text-align: left;"><td colspan="4">
-                        <div style="display:inline;color: #a20000;padding-right:5px">{{gameType}}</div>
-                        <div style="display:inline;padding-right:20px;padding-left:20px;border-left:solid 1px;border-right:solid 1px">
-                            {{map}}</div>
-                        <div style="display:inline;padding-left:5px;font-weight: 400;" id="clock"></div>
-                       <script>
+                    <tr style="font-weight: 900;font-size: small;text-align: left;">
+                        <td colspan="4">
+                            <div style="display:inline;color: #a20000;padding-right:5px">{{gameType}}</div>
+                            <div style="display:inline;padding-right:20px;padding-left:20px;border-left:solid 1px;border-right:solid 1px">
+                                {{map}}
+                            </div>
+                            <div style="display:inline;padding-left:5px;font-weight: 400;" id="clock"></div>
+                            <script>
                            //clock script.. YEAH I KNOW! SPAGETT.EXE
                            clock=document.getElementById("clock");
                            gameStartTime={{gameStartTime}};
@@ -84,37 +104,48 @@
                            }
                            updateClock();
                            setInterval(updateClock,1000);
-                       </script>
-                       <td>
-                       <input type="button" class="btn-primary noborder" style="outline: none;transition-duration:0.3s;width:100%" value="Search"
-                       onclick="window.location.href='/live/';">
-                   </td>
 
-                    </td></tr>
+                            </script>
+                        <td>
+                            <input type="button" class="btn-primary noborder"
+                                   style="outline: none;transition-duration:0.3s;width:100%" value="Search"
+                                   onclick="window.location.href='/live/';">
+                        </td>
+
+                        </td></tr>
                     <tr style="text-align: left;">
-                        <td colspan="5" style="font-size: xx-small; padding-left: 5px;border-bottom:solid 1px;">RED TEAM</td>
+                        <td colspan="5" style="font-size: xx-small; padding-left: 5px;border-bottom:solid 1px;">RED
+                            TEAM
+                        </td>
                     </tr>
                     {% for participant in team1 %}
                     <tr style="height:50px;line-height: 10px;width: 64px;width: 100%; {% if participant.focus %} background-color:rgba(60, 73, 82, 0.81); {% endif %}">
-                        <td style=" width:70px;"><img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/profileicon/{{participant.profileIconId}}.png" style="width: 43px;"></td>
+                        <td style=" width:70px;"><img
+                                src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/profileicon/{{participant.profileIconId}}.png"
+                                style="width: 43px;"></td>
                         <td>
-                            <h3 style="width:100%;line-height: 1px;font-size:medium;padding-left: 10px;vertical-align: middle;text-align: left; "><a
-                                    href="/summoner?name={{participant.summonerName}}" style="color: cornsilk; position:relative; top:3px">{{participant.summonerName}}</a></h3>
+                            <h3 style="width:100%;line-height: 1px;font-size:medium;padding-left: 10px;vertical-align: middle;text-align: left; ">
+                                <a
+                                        href="/summoner?name={{participant.summonerName}}"
+                                        style="color: cornsilk; position:relative; top:3px">{{participant.summonerName}}</a>
+                            </h3>
                         </td>
                         <td style="width: 32px;">
-                             <a href="/champions/?name={{participant.championName}}" style="font-size:smaller;color: cornsilk;">
-                            <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/champion/{{participant.championImage}}"
-                                 style="width: 32px;">
-                            <p style="font-size: xx-small;">
-                               {{participant.championName}}</p>
-                        </a>
+                            <a href="/champions/?name={{participant.championName}}"
+                               style="font-size:smaller;color: cornsilk;">
+                                <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/champion/{{participant.championImage}}"
+                                     style="width: 32px;">
+                                <p style="font-size: xx-small;">
+                                    {{participant.championName}}</p>
+                            </a>
                         </td>
                         <td style="width: 20px;">
-                            <img data-toggle="tooltip"  title="{{participant.spell1}}"
+                            <img data-toggle="tooltip" title="{{participant.spell1}}"
                                  src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/spell/{{participant.spell1Img}}"
                                  style="width: 15px;"><br>
                             <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/spell/{{participant.spell2Img}} "
-                                 style="padding-bottom: 8px; width: 15px; padding-top: 5px;" data-toggle="tooltip"  title="{{participant.spell2}}"></td>
+                                 style="padding-bottom: 8px; width: 15px; padding-top: 5px;" data-toggle="tooltip"
+                                 title="{{participant.spell2}}"></td>
 
                         <td style="text-align: center; width: 70px;">
                             <div class="rank" id="{{participant.summonerId}}"
@@ -126,30 +157,40 @@
                         </td>
                     </tr>
                     {% endfor %}
-                     <tr style="text-align: left;">
-                        <td colspan="5" style="font-size: xx-small; padding-left: 5px;border-bottom:solid 1px;padding-top:15px">BLUE TEAM</td>
+                    <tr style="text-align: left;">
+                        <td colspan="5"
+                            style="font-size: xx-small; padding-left: 5px;border-bottom:solid 1px;padding-top:15px">BLUE
+                            TEAM
+                        </td>
                     </tr>
                     {% for participant in team2 %}
-                     <tr style="height:50px;line-height: 10px;width: 64px;width: 100%; {% if participant.focus %} background-color:rgba(60, 73, 82, 0.81); {% endif %}">
-                        <td style=" width:70px;"><img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/profileicon/{{participant.profileIconId}}.png" style="width: 43px;"></td>
+                    <tr style="height:50px;line-height: 10px;width: 64px;width: 100%; {% if participant.focus %} background-color:rgba(60, 73, 82, 0.81); {% endif %}">
+                        <td style=" width:70px;"><img
+                                src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/profileicon/{{participant.profileIconId}}.png"
+                                style="width: 43px;"></td>
                         <td>
-                            <h3 style="width:100%;line-height: 1px;font-size:medium;padding-left: 10px;vertical-align: middle;text-align: left; "><a
-                                    href="/summoner?name={{participant.summonerName}}" style="color: cornsilk; position:relative; top:3px">{{participant.summonerName}}</a></h3>
+                            <h3 style="width:100%;line-height: 1px;font-size:medium;padding-left: 10px;vertical-align: middle;text-align: left; ">
+                                <a
+                                        href="/summoner?name={{participant.summonerName}}"
+                                        style="color: cornsilk; position:relative; top:3px">{{participant.summonerName}}</a>
+                            </h3>
                         </td>
                         <td style="width: 32px;">
-                             <a href="/champions/?name={{participant.championName}}" style="font-size:smaller;color: cornsilk;">
-                            <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/champion/{{participant.championImage}}"
-                                 style="width: 32px;">
-                            <p style="font-size: xx-small;">
-                               {{participant.championName}}</p>
-                        </a>
+                            <a href="/champions/?name={{participant.championName}}"
+                               style="font-size:smaller;color: cornsilk;">
+                                <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/champion/{{participant.championImage}}"
+                                     style="width: 32px;">
+                                <p style="font-size: xx-small;">
+                                    {{participant.championName}}</p>
+                            </a>
                         </td>
                         <td style="width: 20px;">
-                            <img data-toggle="tooltip"  title="{{participant.spell1}}"
+                            <img data-toggle="tooltip" title="{{participant.spell1}}"
                                  src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/spell/{{participant.spell1Img}}"
                                  style="width: 15px;"><br>
                             <img src="http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/spell/{{participant.spell2Img}} "
-                                 style="padding-bottom: 8px; width: 15px; padding-top: 5px;" data-toggle="tooltip"  title="{{participant.spell2}}"></td>
+                                 style="padding-bottom: 8px; width: 15px; padding-top: 5px;" data-toggle="tooltip"
+                                 title="{{participant.spell2}}"></td>
 
                         <td style="text-align: center; width: 70px;">
                             <div class="rank" id="{{participant.summonerId}}"
@@ -164,27 +205,10 @@
                     </tbody>
                 </table>
             </div>
-            {{ status }}
-            {% else %}
-            <div class="col-md-8 text-center">
+            {% endblock %}
 
-                <div class="mb-5 element-animate">
-                    <h1>Find who you're playing against.</h1>
-                    <p>See if you have any rights to call them noobs.</p>
-                </div>
-                {% if status and status.strip %}
-                <p> {{status}}</p>
-                {% endif %}
-                <form class="form-inline element-animate" id="search-form">
-                    <input type="text" value="{{request.GET.summoner}}" id="summonerName" name="summoner"
-                           class="form-control form-control-block search-input" placeholder="Summoner name">
-                    <input type="button" onclick="search()" id="button" value="Live Game" class="btn btn-primary"/>
-                </form>
-
-            </div>
             {% endif %}
 
-            {% endblock %}
         </div>
     </div>
 </section>
@@ -254,6 +278,7 @@ queue.push(data);
 
 for(i=0;i<queue.length;i++)
 $.getJSON("getLeague?summoner="+queue[i]['id'],createCallback(queue[i]));
+
 
 </script>
 
