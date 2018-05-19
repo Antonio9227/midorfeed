@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d705f2ec-ef63-4881-89e9-64446f153b62" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lolproject/live/static/js/summoner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lolproject/live/static/js/updateRanks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lolproject/live/templates/empty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lolproject/live/templates/mastery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lolproject/live/templates/rank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lolproject/live/templates/sorry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lolproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/lolproject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lolproject/live/static/css/summoner.css" beforeDir="false" afterPath="$PROJECT_DIR$/lolproject/live/static/css/summoner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lolproject/live/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lolproject/live/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lolproject/live/templates/summoner.html" beforeDir="false" afterPath="$PROJECT_DIR$/lolproject/live/templates/summoner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lolproject/lolproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lolproject/lolproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lolproject/lolproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lolproject/lolproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lolproject/summoner/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lolproject/summoner/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,10 +17,22 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lolproject/summoner/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="130">
+              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lolproject/live/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rank.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rank.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lolproject/live/templates/rank.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -191,13 +191,13 @@
         <option value="$PROJECT_DIR$/lolproject/lolproject/urls.py" />
         <option value="$PROJECT_DIR$/lolproject/live/templates/empty.html" />
         <option value="$PROJECT_DIR$/lolproject/live/static/js/summoner.js" />
-        <option value="$PROJECT_DIR$/lolproject/live/templates/base.html" />
         <option value="$PROJECT_DIR$/lolproject/live/static/js/updateRanks.js" />
         <option value="$PROJECT_DIR$/lolproject/live/static/css/summoner.css" />
         <option value="$PROJECT_DIR$/lolproject/live/templates/summoner.html" />
         <option value="$PROJECT_DIR$/lolproject/live/templates/mastery.html" />
         <option value="$PROJECT_DIR$/lolproject/summoner/views.py" />
         <option value="$PROJECT_DIR$/lolproject/live/templates/rank.html" />
+        <option value="$PROJECT_DIR$/lolproject/live/templates/base.html" />
       </list>
     </option>
   </component>
@@ -697,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lolproject/live/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1768">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lolproject/live/templates/summoner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -716,6 +706,25 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lolproject/live/templates/json.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lolproject/live/templates/rank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -739,29 +748,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lolproject/summoner/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="130">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lolproject/live/templates/json.html">
+    <entry file="file://$PROJECT_DIR$/lolproject/live/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lolproject/live/templates/rank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="221">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
