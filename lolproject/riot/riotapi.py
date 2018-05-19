@@ -5,7 +5,7 @@ from enum import Enum
 from champion.models import Champion
 from live.models import SummonerSpell
 
-api_key = "RGAPI-e5700e86-edcf-4322-9341-c284a804bb1b"  # THIS SHIT MUST BE GENERATED DAILY
+api_key = "RGAPI-e5700e86-edcf-4322-9341-c284a804bb1bPPPP"  # THIS SHIT MUST BE GENERATED DAILY
 version = "8.10.1"  # version used to fetch static data such as images
 
 
@@ -16,10 +16,11 @@ class Method(Enum):
     GetLeague = "/lol/league/v3/positions/by-summoner/"  # requires summoner id
     SummonerById = "/lol/summoner/v3/summoners/"  # requires id as param
     ChampMastery = "/lol/champion-mastery/v3/champion-masteries/by-summoner/"  # by summoner id
+    ShardData = "/lol/status/v3/shard-data/"
 
 
 # general request function; pass one enum from Method and params
-def request(method, param):
+def request(method, param=""):
     region = "eun1"  # can be used to extend this site to other regions
     url = "https://" + region + ".api.riotgames.com" + method + param + "?api_key=" + api_key
     r = requests.get(url)
@@ -90,3 +91,10 @@ class ParticipantDTO:
 class GameDTO:
     def __init__(self, game):
         self.gameLength = game['gameLength']
+
+
+def is_key_valid():
+    r = request(Method.ShardData.value)
+    if r.get('status'):
+        return False
+    return True

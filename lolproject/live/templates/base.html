@@ -58,7 +58,9 @@
     </nav>
 </header>
 <!-- END header -->
-
+{% if invalidKey %}
+<script>alert("Riot API key invalid or has expired. This app won't work...at all... fix it in 'riotapi.py'");</script>
+{% endif %}
 <section class="site-hero overlay" data-stellar-background-ratio="0.5"
          style="background-position:0 0;background-size:cover;background-image: url({% block background %}{% static 'images/big_image_1.jpg' %}{% endblock %}) ;">
     <div class="container">
@@ -109,10 +111,6 @@
                            }
                            updateClock();
                            setInterval(updateClock,1000);
-
-
-
-
                             </script>
                         <td>
                             <input type="button" class="btn-primary noborder"

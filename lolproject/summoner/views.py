@@ -23,6 +23,9 @@ class SummonerView(TemplateView):
         data["search_button"] = "Search"
         data["search_placeholder"] = "Summoner name"
 
+        if not riotapi.is_key_valid():
+            data["invalidKey"] = True
+
         status = ""
         sumName = self.request.GET.get('summoner', False)
 

@@ -51,6 +51,9 @@ class LiveGame(TemplateView):
     def get_context_data(self, **kwargs):
         data = super().get_context_data(**kwargs)
 
+        if not riotapi.is_key_valid():
+            data["invalidKey"] = True
+
         sumName = self.request.GET.get('summoner', False)
         status = ""
 
