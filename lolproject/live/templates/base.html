@@ -1,16 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>{% if title %} {{title}} {% else %} Mid or feed  {% endif %}</title>
+    <title>{% if title %} {{title}} {% else %} Mid or feed {% endif %}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
     {% load static %}
+
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery-migrate-3.0.0.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+
     <style>p{margin:0}</style>
     {% block extended_head %}
-     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway" rel="stylesheet">
 
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/animate.css' %}">
@@ -44,12 +50,6 @@
                     <li class="nav-item">
                         <a class="nav-link {% if request.path == '/summoner/' %} active {%endif%}" href="/summoner/">Summoner
                             Stats</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.path == '/vs/' %} active {%endif%}" href="/vs/">Versus</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.path == '/contact.html' %} active {%endif%}" href="/contact.html">Contact</a>
                     </li>
                 </ul>
 
@@ -109,6 +109,8 @@
                            }
                            updateClock();
                            setInterval(updateClock,1000);
+
+
 
 
                             </script>
@@ -211,6 +213,7 @@
                     </tbody>
                 </table>
             </div>
+            <script src="{% static 'js/updateRanks.js' %}"></script>
             {% endblock %}
 
             {% endif %}
@@ -229,65 +232,8 @@
     </svg>
 </div>
 
-<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
-<script src="{% static 'js/jquery-migrate-3.0.0.js' %}"></script>
-<script src="{% static 'js/popper.min.js' %}"></script>
-<script src="{% static 'js/bootstrap.min.js' %}"></script>
-<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
-<script src="{% static 'js/owl.carousel.min.js' %}"></script>
-<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
-
 
 <script src="{% static 'js/main.js' %}"></script>
-
-
-<script>
-//prepare the tooltip hover stuff
-    $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
-
-
-
-//Updates all ranks on the page!
-var ranks=document.getElementsByClassName("rank");
-
-queue=[]
-
-function createCallback(item) {
-   return function(data) {
-      update(data, item);
-   };
- }
-
-icons={UNRANKED:0,BRONZE:1,SILVER:2,GOLD:3,PLATINUM:4,DIAMOND:5,MASTER:6,CHALLENGER:7};
-function update(data,a)
-{
-nodes=a.nodes;
-nodes[1].innerHTML="Level "+data.level;
-nodes[3].innerHTML=data.tier+" "+data.rank;
-nodes[3].setAttribute("title",data.leagueName);
-
-bg=a.background;
-bg.setAttribute("title",data.leagueName);
-bg.style.backgroundImage="url('/static/tier-icons.png')";
-bg.style.backgroundPositionX= (icons[data.tier]*-42)+"px";
-}
-
-for(i=0;i<ranks.length;i++)
-{
-var id=ranks[i].getAttribute('id');
-var nodes=ranks[i].childNodes;
-data={'id':id,'nodes':nodes,'background':ranks[i]};
-queue.push(data);
-}
-
-for(i=0;i<queue.length;i++)
-$.getJSON("getLeague?summoner="+queue[i]['id'],createCallback(queue[i]));
-
-
-
-</script>
 
 </body>
 </html>

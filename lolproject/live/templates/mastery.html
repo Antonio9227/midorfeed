@@ -1,0 +1,34 @@
+{% load static %}
+<style>
+    td{
+    padding-left:20px;
+    text-align:center;
+    }
+    tr p{
+    width:100%;
+    }
+</style>
+{% if hasData %}
+<table style="color:cornsilk;width:100%">
+    <tr style="border-bottom:solid 1px;text-align:center">
+        <th colspan="2">Champion</th>
+        <th>Experience</th>
+        <th>Last Played</th>
+    </tr>
+    {% for entry in masteries %}
+    <tr>
+        <td style="width:64px">
+            <div style="text-align:center;width:64px;height:64px;background-size:cover;background-image:url('http://ddragon.leagueoflegends.com/cdn/{{api_version}}/img/champion/{{entry.icon}}.png');">
+                <p style="background-color: rgba(0,0,0,0.75);font-size: x-small;bottom: -52px;position: relative;">Level
+                    {{entry.championLevel}}</p>
+            </div>
+        </td>
+        <td style="text-align:left"><p>{{entry.champName}}</p></td>
+        <td><p>{{entry.championPoints}}</p></td>
+        <td style="text-align:center"><p title="at {{entry.lastPlayhour}} ^-^">{{entry.lastPlaydate}}</p></td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p style="color:cornsilk">No champion mastery data found for this summoner...</p>
+{% endif %}

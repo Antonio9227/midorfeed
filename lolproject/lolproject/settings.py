@@ -25,7 +25,7 @@ SECRET_KEY = '@gc68b$tf@=d(h1=ky6-xa379@)+@e9tmckp00!^)#7wdtylco'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','192.168.1.100','kindergarten.go.ro']
 
 
 # Application definition

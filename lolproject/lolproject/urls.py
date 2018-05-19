@@ -27,5 +27,9 @@ urlpatterns = [
     path('live/getLeague', LeagueView),
     path('getLeague', LeagueView),
     path('summoner/', SummonerView.as_view()),
-    path('live/summoner/', SummonerView.as_view())
+    path('live/summoner/', SummonerView.as_view()),
+    path('champions/',SorryView.as_view()),
+    path('summoner/rank/',RankView.as_view()),
+    path('summoner/mastery/',MasteryView.as_view()),
+    path('summoner/history/',HistoryView.as_view())
 ]
