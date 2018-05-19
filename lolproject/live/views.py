@@ -45,18 +45,14 @@ def LeagueView(request):
     return JsonResponse({'tier': tier, 'rank': rank, 'leagueName': league_name, 'level': summoner['summonerLevel']})
 
 
-def get(self, request):
-    self.id = request.GET.get("summoner")
-    return super().get(self, request)
-
-
 class LiveGame(TemplateView):
     template_name = "base.html"
-    status = ""
-    sumName = ""
 
     def get_context_data(self, **kwargs):
         data = super().get_context_data(**kwargs)
+
+        sumName = self.request.GET.get('summoner', False)
+        status = ""
 
         data["search_header"] = "Find who you're playing against."
         data["search_text"] = "See if you have any rights to call them noobs.";
@@ -64,15 +60,15 @@ class LiveGame(TemplateView):
         data["search_placeholder"] = "Summoner name"
 
         data["show_searchBar"] = True
-        if not self.sumName:
+        if not sumName:
             return data
 
         data["api_version"] = riotapi.version
-        summoner = Summoner.objects.filter(name__iexact=self.sumName.lower()).first()
+        summoner = Summoner.objects.filter(name__iexact=sumName.lower()).first()
 
         # if summoner does not exists in db or was updated more than 1h ago
         if not summoner or (time() - summoner.lastUpdate > 3600):
-            riotSum = riotapi.summonerByName(self.sumName)
+            riotSum = riotapi.summonerByName(sumName)
             if riotSum == -1:
                 data['status'] = "Summoner not found. Try again?"
                 data['show_searchBar'] = True
@@ -89,7 +85,7 @@ class LiveGame(TemplateView):
         game = riotapi.activeGame(summoner.id)
 
         if game == -1:
-            self.status = "Summoner is currently not in any active game"
+            status = "Summoner is currently not in any active game"
             data['show_searchBar'] = True
         else:
             p = game['participants']
@@ -116,20 +112,9 @@ class LiveGame(TemplateView):
             data['title'] = summoner.name
             data['show_searchBar'] = False
 
-        data['status'] = self.status
+        data['status'] = status
 
         return data
-
-    def get(self, request):
-        self.status = ""
-        self.sumName = request.GET.get('summoner', False)
-
-        # if summoner name was not provided via GET var, skip everything below
-        if not self.sumName:
-            self.status = "  "
-            return super().get(request)
-
-        return super().get(request)
 
 
 class DEBUG(TemplateView):
